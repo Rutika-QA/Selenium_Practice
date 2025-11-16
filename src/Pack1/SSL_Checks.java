@@ -1,0 +1,25 @@
+package Pack1;
+
+import org.openqa.selenium.Proxy;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class SSL_Checks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChromeOptions options = new ChromeOptions();
+		options.setAcceptInsecureCerts(true);
+		Proxy proxy = new Proxy();
+		proxy.setHttpProxy("");
+		
+		
+		ChromeDriver driver = new ChromeDriver(options);
+		driver.get("https://expired.badssl.com/");
+		System.out.println(driver.getTitle());
+	}
+
+}
+
+
+// chromedriver.chromium.org/capabilities ---> Document

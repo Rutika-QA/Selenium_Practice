@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-19T09:57:58Z" name="Default suite" finished-at="2025-02-19T09:58:14Z" duration-ms="15772">
+    <groups>
+    </groups>
+    <test started-at="2025-02-19T09:57:58Z" name="Default test" finished-at="2025-02-19T09:58:14Z" duration-ms="15772">
+      <class name="PracticeSelenium.AssignmentNo_3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PracticeSelenium.AssignmentNo_3@62f4ff3b]" started-at="2025-02-19T15:27:58Z" name="setup" finished-at="2025-02-19T15:28:03Z" duration-ms="4808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:PracticeSelenium.AssignmentNo_3@62f4ff3b]" started-at="2025-02-19T15:28:06Z" name="loginTest" data-provider="loginData" finished-at="2025-02-19T15:28:11Z" duration-ms="4621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smandape06@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[logindata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:PracticeSelenium.AssignmentNo_3@62f4ff3b]" started-at="2025-02-19T15:28:11Z" name="afterclass" finished-at="2025-02-19T15:28:14Z" duration-ms="3308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- PracticeSelenium.AssignmentNo_3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
